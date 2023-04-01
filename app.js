@@ -9,6 +9,8 @@ window.onload = function () {
     var buttonReset = document.getElementById('button-reset');
     var Interval ;
   
+  
+  
     buttonStart.onclick = function() {
       
       clearInterval(Interval);
@@ -27,6 +29,8 @@ window.onload = function () {
         appendSeconds.innerHTML = seconds;
     }
     
+  
+  
     function startTimer () {
       tens++; 
       
